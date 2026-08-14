@@ -179,7 +179,6 @@
             quick-tap-ms = <900>;      // タップ+長押しでリピートさせる時間
         };
 
-
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -219,10 +218,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &trans         &trans     &moA  &moB  &moC
-&kp TAB         &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &trans         &trans     &moD  &moE  &kp ENTER
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA    &moF       &moG  &moH  &kp ENTER
-&mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                         &kp DEL
+&kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &trans         &trans     &moA       &moB  &moC
+&kp TAB         &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &trans         &mkp LCLK  &mkp RCLK  &moE  &kp ENTER
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA    &moF       &moG       &moH  &kp ENTER
+&mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                              &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -236,7 +235,7 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp N1          &mo2          &kp N3        &kp N4            &kp N5                             &mo6    &mo7           &mo8       &mo9            &mo0
+&kp N1          &mo2          &kp N3        &kp N4            &kp N5                                     &mo6           &mo7       &mo8            &mo9            &mo0
 &trans          &trans        &trans        &trans            &trans       &trans                &trans  &trans         &trans     &trans          &kp UP_ARROW    &trans
 &kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans  &trans         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN            &kp BACKSPACE  &kp ENTER                                                   &kp DEL
