@@ -200,7 +200,7 @@
 
             bindings = <
 &kp Q           &kp W         &kp E         &kp R      &kp T                                  &kp Y      &kp U          &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F      &kp G      &kp LS(LG(S))    &kp B      &kp H      &kp J          &kp K      &kp L    &kp SQT
+&kp A           &kp S         &kp D         &kp F      &kp G      &kp LS(LG(S))    &kp MINUS  &kp H      &kp J          &kp K      &kp L    &kp SQT
 &kp LEFT_SHIFT  &kp Z         &kp X         &lt 6 C    &lt 5 V    &lt 4 B          &kp MINUS  &kp N      &kp M          &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp LANG1  &kp SPACE  &mo 1                       &kp ENTER  &kp BACKSPACE                                 &kp DEL
             >;
