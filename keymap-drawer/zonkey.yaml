@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - B
+  - '-'
   - H
   - J
   - K
@@ -29,20 +29,20 @@ layers:
   - {t: C, h: '6'}
   - {t: V, h: '5'}
   - {t: B, h: '4'}
-  - '-'
+  - LANGUAGE 2
   - N
   - M
   - ','
   - .
   - /
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
+  - LEFT COMMAND
+  - {t: LANGUAGE 2, h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1'}
-  - BACKSPACE
+  - {t: LANGUAGE 1, h: '1'}
   - ENTER
+  - '1'
   - DEL
   '1':
   - CAPSLOCK
@@ -54,17 +54,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: INT3, s: Sft+0x89}
+  - '-'
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - LANGUAGE 2
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '[', s: '{'}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ']', s: '}'}
   - ENTER
   - LEFT SHIFT
