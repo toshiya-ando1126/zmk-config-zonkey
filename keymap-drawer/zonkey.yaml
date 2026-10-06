@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - LANGUAGE 1
   - {t: ;, s: KP PLUS}
   - {t: '''', s: '"'}
